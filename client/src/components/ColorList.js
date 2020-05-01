@@ -40,7 +40,7 @@ const ColorList = ({ colors, updateColors, getColorList }) => {
   };
 
   return (
-    <div className="colors-wrap">
+    <div className="colors-wrap " >
       <p>colors</p>
       <ul>
         {colors.map((color) => (
