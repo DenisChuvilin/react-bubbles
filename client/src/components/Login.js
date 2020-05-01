@@ -4,6 +4,7 @@ import { useHistory } from 'react-router-dom';
 
 const Login = () => {
   // make a post request to retrieve a token from the api
+  axiosWithAuth.post()
   // when you have handled the token, navigate to the BubblePage route
 
   const [formState, setFormState] = useState({
